@@ -1,2 +1,4 @@
 *.txt
 *.enc
+*password-manager*
+*main1.c*
