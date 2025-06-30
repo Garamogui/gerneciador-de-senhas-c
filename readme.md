@@ -34,13 +34,12 @@ A criptografia usada é bem simples (apenas soma/subtração de bytes com uma ch
 ### 1. Clone o repositório
 
 ```sh
-git clone https://github.com/seu-usuario/password-manager.git
-cd password-manager
-````
-
+git clone https://github.com/Garamogui/gerenciador-de-senhas-c
+cd gerenciador-de-senhas-c
+```
 ### 2. Compile o projeto
 
-Se estiver usando Linux ou MacOS:
+Se estiver usando Linux, MacOS,BSD's (Unix):
 
 ```bash
 gcc -o password-manager \
