@@ -1,5 +1,9 @@
+// Bibliotecas do projto
 #include "crud/crud.h"
 #include "cryptography/cryptography.h"
+
+
+// Bibliotecas padrão
 #include <stdio.h>
 #include <stdlib.h>
 #include <unistd.h>
@@ -18,6 +22,7 @@ int main(void) {
     printf("1.Obter \n 2.Criar \n 3.Editar \n 4.Excluir \n 5.Sair: ");
     scanf("%d", &opt);
     while (getchar() != '\n');
+
     switch (opt) {
     case 1:
       get_password();

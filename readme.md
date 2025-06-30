@@ -33,7 +33,7 @@ A criptografia usada é bem simples (apenas soma/subtração de bytes com uma ch
 
 ### 1. Clone o repositório
 
-```bash
+```sh
 git clone https://github.com/seu-usuario/password-manager.git
 cd password-manager
 ````
@@ -45,16 +45,16 @@ Se estiver usando Linux ou MacOS:
 ```bash
 gcc -o password-manager \
     main.c \
-    criptography/criptography.c \
+    cryptography/cryptography.c \
     crud/crud.c
 ```
 
 Se estiver no Windows (MinGW):
 
-```bash
+```sh
 gcc -o password-manager.exe \
     main.c \
-    criptography/criptography.c \
+    cryptography/cryptography.c \
     crud/crud.c
 ```
 
@@ -96,9 +96,9 @@ Escolha uma opção:
 ```
 password-manager/
 ├── main.c
-├── criptography/
-│   ├── criptography.h
-│   └── criptography.c
+├── cryptography/
+│   ├── cryptography.h
+│   └── cryptography.c
 ├── crud/
 │   ├── crud.h
 │   └── crud.c
